@@ -1,0 +1,38 @@
+.html-style{
+  background-color: black;
+}
+
+.heroStyles{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 500px;
+}
+
+.buttonsBase {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 12px 24px; /* Ajusta el padding según sea necesario para el tamaño deseado */
+  margin: 8px; /* Espacio entre botones */
+  background-color: #007bff; /* Color de fondo */
+  color: #fff; /* Color de texto */
+  border: none; /* Quita el borde predeterminado */
+  border-radius: 8px; /* Radio de borde */
+  cursor: pointer; /* Cambia el cursor al pasar por encima */
+  font-size: 16px; /* Tamaño de fuente */
+  outline: none; /* Quita el borde de enfoque */
+  transition: background-color 0.3s ease; /* Transición suave para el color de fondo */
+
+  /* Ancho máximo para evitar que ocupen toda la pantalla */
+  max-width: 300px; /* Ajusta el ancho máximo según sea necesario */
+}
+
+.buttonsBase:hover {
+  background-color: #0056b3; /* Color de fondo al pasar por encima */
+}
+
+.HeaderPosition{
+  margin-left: 100px;
+}

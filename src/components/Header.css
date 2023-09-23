@@ -1,0 +1,11 @@
+.header-style {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 70px;
+  padding: 5px;
+  left:10px ;
+  background-color: white;
+  border: 1px solid #5a5a5a; /* Puedes ajustar el grosor y el color según tus preferencias */
+  border-radius: 12px;
+}
