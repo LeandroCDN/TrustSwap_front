@@ -5,7 +5,7 @@
   height: 70px;
   padding: 5px;
   left:10px ;
-  background-color: white;
+  background-color: rgba(255, 255, 255, 0.898);
   border: 1px solid #5a5a5a; /* Puedes ajustar el grosor y el color según tus preferencias */
   border-radius: 12px;
 }
